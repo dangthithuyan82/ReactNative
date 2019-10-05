@@ -21,7 +21,7 @@ followMe = ()=>{
 }
 
 share = ()=>{
-  alert('You clicked share button');
+  alert('You clicked send button');
 }
 const imgData = [
   { id: 1, imgSource: require('./assets/avata.jpg') },
@@ -58,7 +58,7 @@ const App: () => React$Node = () => {
             <TouchableOpacity
               onPress={share}
               style={styles.btnShare}>
-              <Image source={require('./assets/share.png')} style={styles.shareIcon}/>
+              <Image source={require('./assets/send.png')} style={styles.shareIcon}/>
             </TouchableOpacity>
           </View>
         </View>
